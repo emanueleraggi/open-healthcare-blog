@@ -4,11 +4,14 @@ import Hero from '../components/Hero'
 import { graphql } from 'gatsby'
 import Posts from '../components/Posts'
 // ...GatsbyImageSharpFluid
-const PostsPage = ({ data }) => {
-  return (
-    // <h2>posts page</h2>
-    <Hero />
-  )
+
+
+const healthcare = () => {
+    return (
+        <div>
+            <h2>healthcare page</h2>
+        </div>
+    )
 }
 
-export default PostsPage
+export default healthcare

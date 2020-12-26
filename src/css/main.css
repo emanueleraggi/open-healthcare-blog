@@ -233,7 +233,7 @@ Navbar
 .dribble-icon {
   color: #ea4c89;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1400px) {
   .toggle-btn {
     display: none;
   }
@@ -326,7 +326,7 @@ Sidebar
   cursor: pointer;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1400px) {
   .sidebar {
     transform: translateX(-100%);
   }
@@ -366,7 +366,7 @@ Hero
 .hero-person {
   display: none;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1400px) {
   .hero {
     height: 20rem;
   }

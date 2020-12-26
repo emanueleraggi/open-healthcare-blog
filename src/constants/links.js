@@ -24,6 +24,26 @@ const Links = ({ styleClass, children }) => {
           Post
         </Link>
       </li>
+      <li>
+        <Link to="/healthcare" className="page-link">
+          Helthcare
+        </Link>
+      </li>
+      <li>
+        <Link to="/technology" className="page-link">
+          Technology
+        </Link>
+      </li>
+      <li>
+        <Link to="/robotics" className="page-link">
+          Robotics
+        </Link>
+      </li>
+      <li>
+        <Link to="/contact" className="page-link">
+          Contact
+        </Link>
+      </li>
     </ul>
   )
 }

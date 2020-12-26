@@ -1,4 +1,8 @@
 // const path = require('path')
+const sharp = require('sharp')
+
+sharp.cache(false)
+sharp.simd(true)
 
 // // create pages dynamically
 // exports.createPages = async ({ graphql, actions }) => {
