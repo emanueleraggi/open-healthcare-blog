@@ -9,7 +9,11 @@ const Sidebar = ({isOpen, toggle}) => {
         <IoMdClose/>
       </button>
       <div className="sidebar-container">
-        <Links styleClass="sidebar-links"/>
+        <Links styleClass="sidebar-links">
+          {/* FIX ME XXX */}
+          {/* Small bug: the list does not seem to scroll down */}
+          <Categories />
+        </Links>
       </div>
     </aside>
   )

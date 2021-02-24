@@ -8,9 +8,10 @@ import Posts from '../components/Posts'
 
 const healthcare = () => {
     return (
-        <div>
+        <Layout>
+            <Hero />
             <h2>healthcare page</h2>
-        </div>
+        </Layout>
     )
 }
 

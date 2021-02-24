@@ -1,20 +1,53 @@
-import React from 'react'
-import Title from './Title'
-import Image from 'gatsby-image'
-import styled from 'styled-components'
-import { graphql, useStaticQuery } from 'gatsby'
-//...GatsbyImageSharpFluid
+// import React from 'react'
+// import Title from './Title'
+// import Image from 'gatsby-image'
+// import styled from 'styled-components'
+// import { graphql, useStaticQuery } from 'gatsby'
+// //...GatsbyImageSharpFluid
 
-const Instagram = () => {
-  return <Wrapper>Banner Instagram</Wrapper>
-}
+// const query = graphql`
+//   {
+//     images: allInstaNode(limit: 6) {
+//       nodes {
+//         localFile {
+//           childImageSharp {
+//             fluid {
+//               ...GatsbyImageSharpFluid_withWebp
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// `
 
-const Wrapper = styled.article`
-  .images {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
-  }
-`
+// const Instagram = () => {
+//   const data = useStaticQuery(query);
 
-export default Instagram
+//   const {
+//     images: {nodes}
+//    } = data;
+
+//   return ( 
+//     <Wrapper>
+//       <Title title="instagram" />
+//       <div className="images">
+//         {nodes.map((item, index) => {
+//           // destructuring
+//           const {localFile: {childImageSharp : {fluid}}} = item;
+//           return <Image fluid={fluid} key={index} />
+//         })}
+//       </div>
+//     </Wrapper>
+//   )
+// }
+
+// const Wrapper = styled.article`
+//   .images {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr;
+//     gap: 1rem;
+//   }
+// `
+
+// export default Instagram

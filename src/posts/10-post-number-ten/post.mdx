@@ -1,0 +1,71 @@
+---
+title: Gatsby Tutorial
+slug: gatsby-tutorial
+image: ./images/gatsby-1.png
+date: 2020-12-27
+author: john smith
+category: gatsby
+readTime: 34
+---
+
+import { Link } from 'gatsby'
+import { FiInfo } from 'react-icons/fi'
+import { Counter, LikeButton } from '../../components/Complete'
+
+## my MDX
+
+**I'm baby viral tote bag typewriter neutra, offal portland lomo flannel chia irony normcore microdosing gochujang pour-over kinfolk. Etsy organic edison bulb butcher craft beer brooklyn tumeric cred vape poutine. Fashion axe banjo iceland, selvage austin keffiyeh cronut artisan offal dreamcatcher bushwick edison bulb.** Fingerstache vexillologist raclette, brunch farm-to-table organic blue bottle photo booth unicorn raw denim whatever fashion axe. Small batch green juice schlitz, four loko forage tacos meditation iPhone portland beard mustache meggings blog organic.
+
+<div className="code">
+
+```js
+const firstName = 'john'
+const lastName = 'smith'
+```
+
+</div>
+
+<div className="nice-text">
+<h3>nice text </h3>
+
+<FiInfo className="nice-text-icon"></FiInfo>
+
+I'm baby viral tote bag typewriter neutra, offal portland lomo flannel chia irony normcore microdosing gochujang pour-over kinfolk. Etsy organic edison bulb butcher craft beer brooklyn tumeric cred vape poutine. Fashion axe banjo iceland, selvage austin keffiyeh cronut artisan offal dreamcatcher bushwick edison bulb. Fingerstache vexillologist raclette, brunch farm-to-table organic blue bottle photo booth unicorn raw denim whatever fashion axe. Small batch green juice schlitz, four loko forage tacos meditation iPhone portland beard mustache meggings blog organic.
+
+</div>
+
+<h2>React Components</h2>
+
+<Counter />
+
+```jsx
+import React from 'react'
+import styled from 'styled-components'
+import { AiOutlineLike } from 'react-icons/ai'
+const LikeButton = () => {
+  const [value, setValue] = React.useState(0)
+  return (
+    <Wrapper>
+      <div>
+        <button onClick={() => setValue(value + 1)}>
+          <AiOutlineLike />
+        </button>
+        <p>
+          Liked the post?
+          <br />
+          Click thumbs up few times
+        </p>
+      </div>
+      <span>+{value}</span>
+    </Wrapper>
+  )
+}
+```
+
+<LikeButton />
+
+![nice image](./images/gatsby-1.png)
+
+<Link to="/posts" className="btn center-btn">
+  all posts
+</Link>

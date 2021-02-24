@@ -7,9 +7,10 @@ import Posts from '../components/Posts'
 
 const robotics = () => {
     return (
-        <div>
+        <Layout>
+            <Hero />
             <h2>robotics page</h2>
-        </div>
+        </Layout>
     )
 }
 

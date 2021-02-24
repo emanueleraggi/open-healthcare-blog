@@ -8,9 +8,10 @@ import Posts from '../components/Posts'
 
 const technology = () => {
     return (
-        <div>
+        <Layout>
+            <Hero />
             <h2>technology page</h2>
-        </div>
+        </Layout>
     )
 }
 
