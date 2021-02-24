@@ -114,12 +114,6 @@
 2. autoPlay - gotcha
 3. use like regular component
 
-### Iframe
-
-1. Gatsby Docs
-2. Gotchas - url, styling
-3. Use in template - johnsmilga.com
-
 ### MDX Wrapper
 
 1. Gatsby wrapRootElement
@@ -128,28 +122,6 @@
    [MDX Reference] : https://mdxjs.com/getting-started
 3. Gatsby/MDX Reference
    [ Elements Reference] : https://www.gatsbyjs.org/docs/mdx/customizing-components/
-
-### prism-react-renderer
-
-[docs]: https://github.com/FormidableLabs/prism-react-renderer
-
-```
-npm install --save prism-react-renderer
-```
-
-1. our code - props.children.props.children.trim()
-2. language -
-   props.children.props.className
-   className.replace(/language-/,'')
-3. theme
-
-### Favicon
-
-Favicon
-
-[favicon] : https://favicon.io/
-
-/static/favicon.ico
 
 ### SEO
 
